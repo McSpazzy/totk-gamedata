@@ -5488,7 +5488,7 @@
 005487,1A35E04B,0439738443,Bool,HavePlayedEvent.Goron_MiniGame_02_StartCheck
 005488,FF68789E,4285036702,Bool,HavePlayedEvent.Goron_MiniGame_03_NotUseTrain
 005489,BA146ECB,3121901259,Bool,HavePlayedEvent.Goron_MiniGame_03_PlayerOutOfArea
-005490,85B11CD5,2242976981,Bool,HavePlayedEvent.d191_
+005490,85B11CD5,2242976981,Bool,TempName.Goron_MiniGame_03_StartCheck
 005491,AF56939E,2941686686,Bool,HavePlayedEvent.Goron_MiniGame_03_TrainOutOfArea
 005492,522EE013,1378803731,Bool,HavePlayedEvent.Goron_MiniGame_Tutorial_01_PlayerOutOfArea
 005493,D3E612C0,3555070656,Bool,HavePlayedEvent.Goron_MiniGame_Tutorial_01_StartCheck
@@ -10612,7 +10612,7 @@
 010611,AC758E35,2893385269,Bool,IsAppearKorok.6466706749752682393|Npc_HiddenKorokGround
 010612,C1469931,3242629425,Bool,IsAppearKorok.6478186552074013320|Npc_HiddenKorokGround
 010613,ECCE6E92,3972951698,Bool,Unknown
-010614,EF7434BC,4017370300,Bool,AlreadyFirstTalk_AttackWaveJumpStart
+010614,EF7434BC,4017370300,Bool,IsAppearKorok.6506402301127390269|Npc_HiddenKorokFly
 010615,8AE2F96D,2330130797,Bool,IsAppearKorok.6520617435666398115|Npc_HiddenKorokFly
 010616,0E41100A,0239144970,Bool,IsAppearKorok.6524606515507935194|Npc_HiddenKorokGround
 010617,37FB97BC,0939235260,Bool,IsAppearKorok.6525742765012036024|Npc_HiddenKorokFly
@@ -17151,7 +17151,7 @@
 017150,33C917B8,0868816824,Bool,MercenaryChallenge_002_TalkLeaderBeforeDefeat
 017151,D199761A,3516495386,Bool,MercenaryChallenge_003_TalkLeaderBeforeDefeat
 017152,8D880999,2374502809,Bool,MercenaryChallenge_004_TalkLeaderBeforeDefeat
-017153,34BDC837,0884852791,Bool,MainChallengeTopic_IsCompleted_Exp
+017153,34BDC837,0884852791,Bool,MercenaryChallenge_005_TalkLeaderBeforeDefeat
 017154,C19481B6,3247735222,Bool,MercenaryChallenge_006_TalkLeaderBeforeDefeat
 017155,6A93E27F,1788076671,Bool,MercenaryChallenge_Akkare_BattleEventTalkOn
 017156,9D230799,2636318617,Bool,MercenaryChallenge_Akkare_BattleStart
@@ -17296,7 +17296,7 @@
 017295,D89EF1AF,3634295215,Bool,MiniGame_HorseRace_ReCreateInCourseOutEvent
 017296,ECCFD7AA,3973044138,Bool,MiniGame_HorseRace_ReCreateInFallOffEvent
 017297,768D5438,1988973624,Bool,MiniGame_HorseRace_ReCreateInGiveUpEvent
-017298,71DB022E,1910178350,Bool,Unknown
+017298,71DB022E,1910178350,Bool,MiniGame_HorseRace_ReCreateInGoalEvent
 017299,2E50AE32,0777039410,Bool,MiniGame_HorseRace_TimeUp
 017300,7AE1686E,2061592686,Bool,MiniGame_HorseRace_TimeUpdate
 017301,DD49184A,3712555082,Bool,MiniGame_IsTimerCountDown
@@ -17696,7 +17696,7 @@
 017695,70D50CF6,1893010678,Bool,Npc_BaseCamp012_Armor_012_Upper
 017696,A91334C4,2836608196,Bool,Npc_BaseCamp012_Armor_017_Upper
 017697,3D78E34D,1031332685,Bool,Npc_BaseCamp012_NotChangePos
-017698,708D2264,1888297572,Bool,EnemyBattleData.Enemy_Sandworm.2706413061_398436934_672550164_C0C1_SS
+017698,708D2264,1888297572,Bool,Unknown
 017699,EE767C81,4000742529,Bool,Npc_BaseCamp012_Talk_Armor_009_Upper
 017700,9297621B,2459394587,Bool,Npc_BaseCamp012_Talk01
 017701,94DC802B,2497478699,Bool,Npc_BaseCamp012_Talk02
@@ -20781,7 +20781,7 @@
 020780,3A273126,0975647014,Bool,SecretVegetableGarden_Forbidden_Water
 020781,371A9B9A,0924490650,Bool,SecretVegetableGardenPlayerIsNearby
 020782,8CD71F3A,2362908474,Bool,Unknown
-020783,9B24B37C,2602873724,Bool,EnemyBattleData.Enemy_Horablin_Guard_Middle.IsTreasureBoxUnlock.16276835353365591562
+020783,9B24B37C,2602873724,Bool,Unknown
 020784,F96989B6,4184443318,Bool,Sequence_IsEventBancChangePause
 020785,3CE410C0,1021579456,Bool,Unknown
 020786,77EF83CC,2012185548,Bool,Sequence_IsNeedTrigPadEndEvent
@@ -22355,7 +22355,7 @@
 022354,24ADC261,0615367265,BoolExp,ExcavateFossil1_IsCompleted_Exp
 022355,4B68CBDA,1265159130,BoolExp,ExcavateFossil2_IsAfter_Excavate_Exp
 022356,1D454312,0491078418,BoolExp,Shop_SoldNum.TwnObj_DemonStatue_C_06.DatsuPlain
-022357,1ED2BC85,0517127301,BoolExp,ExcavateFossil2_IsAfter_NextLightPoint_Exp
+022357,1ED2BC85,0517127301,BoolExp,Unknown
 022358,C8214F37,3357626167,BoolExp,ExcavateFossil2_IsAfter_Ready_Exp
 022359,9E43DEDA,2655248090,BoolExp,ExcavateFossil2_IsCompleted_Exp
 022360,EE222E5C,3995217500,BoolExp,ExcavateFossil3_IsAfter_Excavate_Exp
@@ -22823,7 +22823,7 @@
 022822,93E8D93E,2481510718,BoolExp,MainChallenge_IsAfter_LookingForZelda_Exp
 022823,3C437B85,1011055493,BoolExp,MainChallenge_IsAfter_NotReady_Exp
 022824,2248CAB7,0575195831,BoolExp,MainChallenge_IsAfter_Ready_Exp
-022825,A022F61B,2686645787,BoolExp,AppearRitoBossHidden
+022825,A022F61B,2686645787,BoolExp,Unknown
 022826,34EDD0B8,0888000696,BoolExp,MainChallenge_IsCompleted_Exp
 022827,6CF7254E,1828136270,BoolExp,MainChallenge_IsGatherSages
 022828,55A8FF07,1437138695,BoolExp,MainChallenge_IsPurahInTower
@@ -22863,7 +22863,7 @@
 022862,1005901A,0268800026,BoolExp,Mercenary_Akkare_Bloody_IsAfter_Ready_Exp
 022863,DA209901,3659569409,BoolExp,Mercenary_Akkare_Bloody_IsAfter_Report_Exp
 022864,41E7B034,1105702964,BoolExp,Mercenary_Akkare_Bloody_IsCompleted_Exp
-022865,69850AE7,1770326759,BoolExp,OwnedHorseList.ChargeNum.Time
+022865,69850AE7,1770326759,BoolExp,Unknown
 022866,15ACEBF5,0363654133,BoolExp,Mercenary_Eldin_Bloody_IsAfter_Move_Exp
 022867,EB6D535B,3949810523,BoolExp,Mercenary_Eldin_Bloody_IsAfter_NotReady_Exp
 022868,F3C20C3A,4089580602,BoolExp,Mercenary_Eldin_Bloody_IsAfter_Ready_Exp
@@ -25288,7 +25288,7 @@
 025287,26BDB492,0649966738,Enum,Step_Npc_BaseCamp_Assistant_ReactingStatue
 025288,B046165C,2957383260,Enum,Step_Npc_BaseCamp_Assistant_ReactingStatue2
 025289,8C61E389,2355225481,Enum,Step_Npc_BaseCamp_Assistant_ReactingStatue3
-025290,AE973BFE,2929146878,Enum,BallBring_MiniGame_TextureUserData
+025290,AE973BFE,2929146878,Enum,Step_Npc_BaseCamp_Assistant_ReactingStatue4
 025291,BDA44C99,3181661337,Enum,Step_NushiShop_Challenge00
 025292,9371AF5B,2473701211,Enum,Step_NushiShop_Tutorial
 025293,BB58E2E5,3143164645,Enum,Step_OldKorokHelp
@@ -27702,7 +27702,7 @@
 027701,CFBA8008,3485106184,Int,EnemyBattleData.Enemy_Zombie_Boss_Junior.JustAvoidCount
 027702,1787D882,0394778754,Int,EnemyBattleData.Enemy_Zombie_Boss_Junior_Defense.DefeatedNoDamageCount
 027703,676010F1,1734349041,Int,EnemyBattleData.Enemy_Zombie_Boss_Junior_Defense.GuardJustCount
-027704,B243363E,2990749246,Int,EnemyBattleData.Enemy_Giant_Junior.DragonMemoryName
+027704,B243363E,2990749246,Int,EnemyBattleData.Enemy_Zombie_Boss_Junior_Defense.HeadShotCount
 027705,C0AFA984,3232737668,Int,EnemyBattleData.Enemy_Zombie_Boss_Junior_Defense.JustAvoidCount
 027706,903DAACA,2419960522,Int,EnemyBattleData.Enemy_Zombie_Boss_Junior_ForDungeonBossGerudoBattle.DefeatedNoDamageCount
 027707,2FFD0F28,0805113640,Int,EnemyBattleData.Enemy_Zombie_Boss_Junior_ForDungeonBossGerudoBattle.GuardJustCount
@@ -28063,7 +28063,7 @@
 028062,7766EBCC,2003233740,Int,EquipmentPouchTime.Armor_011_Lower
 028063,65471E55,1699159637,Int,EquipmentPouchTime.Armor_011_Upper
 028064,C8FA766C,3371857516,Int,EquipmentPouchTime.Armor_012_Head
-028065,096864BD,0157836477,Int,IsShowSheikahCameraTarget.MonsterFigures03.Well_0008
+028065,096864BD,0157836477,Int,TempName.Armor_012_Head_B
 028066,0D602D79,0224406905,Int,EquipmentPouchTime.Armor_012_Lower
 028067,5C94ABF5,1553247221,Int,EquipmentPouchTime.Armor_012_Upper
 028068,DFBB9407,3753612295,Int,EquipmentPouchTime.Armor_014_Head
@@ -29657,7 +29657,7 @@
 029656,B7230661,3072525921,Int,EquipTime.Weapon_Sword_Base
 029657,13D6FA5A,0332855898,Int,EquipTime.Weapon_Sword_Bone_Base
 029658,7244628A,1917084298,Int,EquipTime.Weapon_Sword_Metal_Base
-029659,1463FAFC,0342096636,Int,AssassinTrap_IsCaveCreate
+029659,1463FAFC,0342096636,Int,EquipTime.Weapon_Sword_Rod_Base
 029660,3775E3B2,0930472882,Int,EquipTime.Weapon_Sword_Wood_Base
 029661,33799C58,0863607896,Int,EquipTime.Weapon_Sword_Zonau_Base
 029662,C553B03E,3310596158,Int,ExchangedCaveMasterMedalNum
@@ -29728,7 +29728,7 @@
 029727,0E85E762,0243656546,Int,KohgaBegin
 029728,A5E85FE4,2783469540,Int,KohgaContinue
 029729,D6C4BCC9,3603217609,Int,KohgaFinal
-029730,518FDD2D,1368382765,Int,Flag.FullPouch
+029730,518FDD2D,1368382765,Int,LargeDungeonFire_CurrentTerminal
 029731,6328B6F3,1663612659,Int,LargeDungeonFire_TerminalNum
 029732,7223F8DD,1914960093,Int,LargeDungeonFire_Turntable_02_Angle
 029733,5CA8C8CA,1554565322,Int,LargeDungeonFire_Turntable_03_Angle
@@ -29900,7 +29900,7 @@
 029899,2EA7FFD1,0782761937,Int,Unknown
 029900,D6C8BCA9,3603479721,Int,PlayerStatus.BreakLife
 029901,716F0587,1903101319,Int,Unknown
-029902,452E9CBD,1160682685,Int,TempName.RemainingMinute
+029902,452E9CBD,1160682685,Int,PlayerStatus.Companion.Electric.ForUI.RemainingMinute
 029903,A1B3EA2F,2712922671,Int,PlayerStatus.Companion.Electric.ForUI.RemainingSecond
 029904,77E8AE13,2011737619,Int,PlayerStatus.Companion.Fire.ForUI.RemainingMinute
 029905,BD9862AD,3180880557,Int,PlayerStatus.Companion.Fire.ForUI.RemainingSecond
@@ -30782,7 +30782,7 @@
 030781,BDA61C04,3181779972,Int,Shop_SoldNum.Npc_TripMaster_07.LightBall_Small
 030782,6254CF20,1649725216,Int,Shop_SoldNum.Npc_TripMaster_07.NormalArrow
 030783,63BEC501,1673446657,Int,Shop_SoldNum.Npc_TripMaster_07.Obj_ArrowBundle_A_01
-030784,9CD6484B,2631288907,Int,InnNeverReturns_IsReturnToHomePosWhenDrown
+030784,9CD6484B,2631288907,Int,Shop_SoldNum.Npc_TripMaster_08.Animal_Insect_N
 030785,9453E084,2488524932,Int,Shop_SoldNum.Npc_TripMaster_08.Animal_Insect_Q
 030786,58B5C98E,1488308622,Int,Shop_SoldNum.Npc_TripMaster_08.Animal_Insect_R
 030787,09FB0B31,0167447345,Int,Shop_SoldNum.Npc_TripMaster_08.FireFruit
