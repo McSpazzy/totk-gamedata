@@ -22355,7 +22355,7 @@
 022354,24ADC261,0615367265,BoolExp,ExcavateFossil1_IsCompleted_Exp
 022355,4B68CBDA,1265159130,BoolExp,ExcavateFossil2_IsAfter_Excavate_Exp
 022356,1D454312,0491078418,BoolExp,Shop_SoldNum.TwnObj_DemonStatue_C_06.DatsuPlain
-022357,1ED2BC85,0517127301,BoolExp,Unknown
+022357,1ED2BC85,0517127301,BoolExp,ExcavateFossil2_IsAfter_NextLightPoint_Exp
 022358,C8214F37,3357626167,BoolExp,ExcavateFossil2_IsAfter_Ready_Exp
 022359,9E43DEDA,2655248090,BoolExp,ExcavateFossil2_IsCompleted_Exp
 022360,EE222E5C,3995217500,BoolExp,ExcavateFossil3_IsAfter_Excavate_Exp
