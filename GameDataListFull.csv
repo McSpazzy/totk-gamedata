@@ -22823,7 +22823,7 @@
 022822,93E8D93E,2481510718,BoolExp,MainChallenge_IsAfter_LookingForZelda_Exp
 022823,3C437B85,1011055493,BoolExp,MainChallenge_IsAfter_NotReady_Exp
 022824,2248CAB7,0575195831,BoolExp,MainChallenge_IsAfter_Ready_Exp
-022825,A022F61B,2686645787,BoolExp,Unknown
+022825,A022F61B,2686645787,BoolExp,MainChallenge_IsAfter_WarpToCaveOfAwake_Exp
 022826,34EDD0B8,0888000696,BoolExp,MainChallenge_IsCompleted_Exp
 022827,6CF7254E,1828136270,BoolExp,MainChallenge_IsGatherSages
 022828,55A8FF07,1437138695,BoolExp,MainChallenge_IsPurahInTower
@@ -22863,7 +22863,7 @@
 022862,1005901A,0268800026,BoolExp,Mercenary_Akkare_Bloody_IsAfter_Ready_Exp
 022863,DA209901,3659569409,BoolExp,Mercenary_Akkare_Bloody_IsAfter_Report_Exp
 022864,41E7B034,1105702964,BoolExp,Mercenary_Akkare_Bloody_IsCompleted_Exp
-022865,69850AE7,1770326759,BoolExp,Unknown
+022865,69850AE7,1770326759,BoolExp,Mercenary_Eldin_Bloody_IsAfter_Exterminate_Exp
 022866,15ACEBF5,0363654133,BoolExp,Mercenary_Eldin_Bloody_IsAfter_Move_Exp
 022867,EB6D535B,3949810523,BoolExp,Mercenary_Eldin_Bloody_IsAfter_NotReady_Exp
 022868,F3C20C3A,4089580602,BoolExp,Mercenary_Eldin_Bloody_IsAfter_Ready_Exp
@@ -22947,8 +22947,8 @@
 022946,6DDB2FBD,1843081149,BoolExp,MercenaryChallenge_HyrulePlain_IsAfter_Ready_Exp
 022947,3FE5E3E4,1072030692,BoolExp,MercenaryChallenge_HyrulePlain_IsAfter_Report_Exp
 022948,2E7E26C1,0780019393,BoolExp,MercenaryChallenge_HyrulePlain_IsCompleted_Exp
-022949,057A8338,0091915064,BoolExp,Unknown
-022950,50753CF4,1349860596,BoolExp,Unknown
+022949,057A8338,0091915064,BoolExp,MessageBottle_SOS_IsAfter_MessageBottle_SOS_01_Exp
+022950,50753CF4,1349860596,BoolExp,MessageBottle_SOS_IsAfter_MessageBottle_SOS_02_Exp
 022951,C0068937,3221653815,BoolExp,MessageBottle_SOS_IsAfter_Ready_Exp
 022952,150BEAE3,0353102563,BoolExp,MessageBottle_SOS_IsCompleted_Exp
 022953,095605A1,0156632481,BoolExp,MiniGame_HorseRace_EraseWagon
@@ -23674,7 +23674,7 @@
 023673,C6415825,3326171173,BoolExp,WhichIsStronger_IsAfter_Step04_Exp
 023674,171C6D44,0387738948,BoolExp,WhichIsStronger_IsCompleted_Exp
 023675,E169B09E,3781800094,BoolExp,WorldMgr_IsBeforeFirstInteractToT
-023676,245546AB,0609568427,BoolExp,Unknown
+023676,245546AB,0609568427,BoolExp,WorldMgr_IsBeforeTitleDemo
 023677,28D3FF36,0684982070,BoolExp,Unknown
 023678,BEF515A3,3203732899,BoolExp,Unknown
 023679,2BD7FF37,0735575863,BoolExp,Yunbo_AfterSage_MiniChallengeComplete
@@ -29749,7 +29749,7 @@
 029748,2AE1799D,0719419805,Int,TempName.X
 029749,C34117CA,3275823050,Int,TempName.Y
 029750,D39F8712,3550447378,Int,TempName.Z
-029751,4033DE66,1077141094,Int,Unknown
+029751,4033DE66,1077141094,Int,MapData.IconData.HitIconIndex
 029752,49DE451A,1239303450,Int,MapOpenNumber
 029753,5976A9AE,1500948910,Int,MaterialShortCut.PouchIndex
 029754,71AD26F8,1907173112,Int,MedohArmor_WaterMovedCount
@@ -31411,8 +31411,8 @@
 031410,4058267A,1079518842,IntArray,AutoBuilder.Draft.Content.SerialNumber
 031411,40CC53E8,1087132648,IntArray,BowStand.EquipInfo.Content.Effect.Value
 031412,67CD5042,1741508674,IntArray,BowStand.EquipInfo.Content.Life
-031413,B14BBC7D,2974530685,IntArray,Unknown
-031414,1490C82D,0345032749,IntArray,Unknown
+031413,B14BBC7D,2974530685,IntArray,CustomHouse.BondInfo.UnitAIndex
+031414,1490C82D,0345032749,IntArray,CustomHouse.BondInfo.UnitBIndex
 031415,DEF0C1E8,3740320232,IntArray,CustomHouse.HouseUnitInfo.HouseUnitSpecificID
 031416,A810BC1B,2819669019,IntArray,DeadHorseList.ChargeNum
 031417,0607438D,0101139341,IntArray,DeadHorseList.ColorType

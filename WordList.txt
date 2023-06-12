@@ -21884,6 +21884,7 @@ MainChallenge_IsAfter_GoToDeepHole_Exp
 MainChallenge_IsAfter_LookingForZelda_Exp
 MainChallenge_IsAfter_NotReady_Exp
 MainChallenge_IsAfter_Ready_Exp
+MainChallenge_IsAfter_WarpToCaveOfAwake_Exp
 MainChallenge_IsCompleted_Exp
 MainChallenge_IsGatherSages
 MainChallenge_IsPurahInTower
@@ -21923,6 +21924,7 @@ Mercenary_Akkare_Bloody_IsAfter_NotReady_Exp
 Mercenary_Akkare_Bloody_IsAfter_Ready_Exp
 Mercenary_Akkare_Bloody_IsAfter_Report_Exp
 Mercenary_Akkare_Bloody_IsCompleted_Exp
+Mercenary_Eldin_Bloody_IsAfter_Exterminate_Exp
 Mercenary_Eldin_Bloody_IsAfter_Move_Exp
 Mercenary_Eldin_Bloody_IsAfter_NotReady_Exp
 Mercenary_Eldin_Bloody_IsAfter_Ready_Exp
@@ -22006,6 +22008,8 @@ MercenaryChallenge_HyrulePlain_IsAfter_NotReady_Exp
 MercenaryChallenge_HyrulePlain_IsAfter_Ready_Exp
 MercenaryChallenge_HyrulePlain_IsAfter_Report_Exp
 MercenaryChallenge_HyrulePlain_IsCompleted_Exp
+MessageBottle_SOS_IsAfter_MessageBottle_SOS_01_Exp
+MessageBottle_SOS_IsAfter_MessageBottle_SOS_02_Exp
 MessageBottle_SOS_IsAfter_Ready_Exp
 MessageBottle_SOS_IsCompleted_Exp
 MiniGame_HorseRace_EraseWagon
@@ -22728,6 +22732,7 @@ WhichIsStronger_IsAfter_Step03_Exp
 WhichIsStronger_IsAfter_Step04_Exp
 WhichIsStronger_IsCompleted_Exp
 WorldMgr_IsBeforeFirstInteractToT
+WorldMgr_IsBeforeTitleDemo
 Yunbo_AfterSage_MiniChallengeComplete
 Zonau_GeniusWeapon_IsAfter_Ready_Exp
 Zonau_GeniusWeapon_IsCompleted_Exp
@@ -29289,6 +29294,7 @@ LastWildHorse.Toughness
 LightBallBudBegin
 LightBallBudNum
 LoadMinusFieldForceCounter
+MapData.IconData.HitIconIndex
 MapOpenNumber
 MaterialShortCut.PouchIndex
 MedohArmor_WaterMovedCount
@@ -30845,6 +30851,8 @@ AutoBuilder.Draft.Content.Index
 AutoBuilder.Draft.Content.SerialNumber
 BowStand.EquipInfo.Content.Effect.Value
 BowStand.EquipInfo.Content.Life
+CustomHouse.BondInfo.UnitAIndex
+CustomHouse.BondInfo.UnitBIndex
 CustomHouse.HouseUnitInfo.HouseUnitSpecificID
 DeadHorseList.ChargeNum
 DeadHorseList.ColorType
@@ -33166,6 +33174,8 @@ CustomHouse.UsedHouseUnitNumAll
 IsBuildMode
 LastAccessedHorseRoomId
 CustomHouse
+UnitAIndex
+UnitBIndex
 IsUsed
 UnitPos
 CustomHouse.HouseUnitInfo.UnitPos
@@ -47715,6 +47725,7 @@ MapData.IconData.PlayerIcon
 StampData
 MapData.IconData.StampData
 HitIconType
+HitIconIndex
 MapPinData
 MapData.IconData.MapPinData
 ChallengeIcon
