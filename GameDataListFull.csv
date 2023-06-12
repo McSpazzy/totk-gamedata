@@ -22354,7 +22354,7 @@
 022353,A414E459,2752832601,BoolExp,ExcavateFossil1_IsAfter_Ready_Exp
 022354,24ADC261,0615367265,BoolExp,ExcavateFossil1_IsCompleted_Exp
 022355,4B68CBDA,1265159130,BoolExp,ExcavateFossil2_IsAfter_Excavate_Exp
-022356,1D454312,0491078418,BoolExp,Shop_SoldNum.TwnObj_DemonStatue_C_06.DatsuPlain
+022356,1D454312,0491078418,BoolExp,ExcavateFossil2_IsAfter_GoFossil_Exp
 022357,1ED2BC85,0517127301,BoolExp,ExcavateFossil2_IsAfter_NextLightPoint_Exp
 022358,C8214F37,3357626167,BoolExp,ExcavateFossil2_IsAfter_Ready_Exp
 022359,9E43DEDA,2655248090,BoolExp,ExcavateFossil2_IsCompleted_Exp
@@ -25696,7 +25696,7 @@
 025695,DD24180A,3710130186,Float,PlayerStatus.Companion.Soul.RemainingEnergy
 025696,1FF58438,0536183864,Float,PlayerStatus.Companion.Water.RemainingEnergy
 025697,591AD4ED,1494930669,Float,PlayerStatus.Companion.Wind.RemainingEnergy
-025698,C5FD29B8,3321702840,Float,Unknown
+025698,C5FD29B8,3321702840,Float,PlayerStatus.CookBuffTime
 025699,DC0CAC64,3691818084,Float,PlayerStatus.Energy
 025700,1D31A0D0,0489791696,Float,PlayerStatus.ExtraEnergy
 025701,21044752,0553928530,Float,PlayerStatus.ExtraStamina
@@ -29911,7 +29911,7 @@
 029910,F8A63B68,4171643752,Int,PlayerStatus.Companion.Wind.ForUI.RemainingMinute
 029911,95994F74,2509852532,Int,PlayerStatus.Companion.Wind.ForUI.RemainingSecond
 029912,9A88E165,2592661861,Int,PlayerStatus.CookBuff
-029913,BD8F37D1,3180279761,Int,Unknown
+029913,BD8F37D1,3180279761,Int,PlayerStatus.CookBuffLv
 029914,6427737E,1680307070,Int,PlayerStatus.CurrentMamo
 029915,A77921D7,2809733591,Int,PlayerStatus.CurrentRupee
 029916,8703CB91,2265172881,Int,PlayerStatus.ExtraLife
@@ -32036,8 +32036,8 @@
 032035,DAA74F5D,3668397917,String64,Shop_TradeItemPaymentMaterial
 032036,770131F9,1996567033,String64,Unknown
 032037,1DF63E75,0502677109,String64,Unknown
-032038,C036F3BB,3224826811,String64,Unknown
-032039,5DB6834A,1572242250,String64,Unknown
+032038,C036F3BB,3224826811,String64,SimpleInfo_ShieldAttachment
+032039,5DB6834A,1572242250,String64,SimpleInfo_WeaponAttachment
 032040,1F580889,0525863049,String64,Unknown
 032041,58E02405,1491084293,String64,Unknown
 032042,A3F57820,2750773280,String64Array,AlbumData.Photograph.ActorName

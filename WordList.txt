@@ -21419,7 +21419,7 @@ ExcavateFossil1_IsAfter_NextLightPoint_Exp
 ExcavateFossil1_IsAfter_Ready_Exp
 ExcavateFossil1_IsCompleted_Exp
 ExcavateFossil2_IsAfter_Excavate_Exp
-Shop_SoldNum.TwnObj_DemonStatue_C_06.DatsuPlain
+ExcavateFossil2_IsAfter_GoFossil_Exp
 ExcavateFossil2_IsAfter_NextLightPoint_Exp
 ExcavateFossil2_IsAfter_Ready_Exp
 ExcavateFossil2_IsCompleted_Exp
@@ -25267,6 +25267,7 @@ PlayerStatus.Companion.Fire.RemainingEnergy
 PlayerStatus.Companion.Soul.RemainingEnergy
 PlayerStatus.Companion.Water.RemainingEnergy
 PlayerStatus.Companion.Wind.RemainingEnergy
+PlayerStatus.CookBuffTime
 PlayerStatus.Energy
 PlayerStatus.ExtraEnergy
 PlayerStatus.ExtraStamina
@@ -29433,6 +29434,7 @@ PlayerStatus.Companion.Water.ForUI.RemainingSecond
 PlayerStatus.Companion.Wind.ForUI.RemainingMinute
 PlayerStatus.Companion.Wind.ForUI.RemainingSecond
 PlayerStatus.CookBuff
+PlayerStatus.CookBuffLv
 PlayerStatus.CurrentMamo
 PlayerStatus.CurrentRupee
 PlayerStatus.ExtraLife
@@ -31444,6 +31446,8 @@ Shop_ScrapResultMain
 Shop_ScrapResultSub
 Shop_SelectItemName
 Shop_TradeItemPaymentMaterial
+SimpleInfo_ShieldAttachment
+SimpleInfo_WeaponAttachment
 AlbumData.Photograph.ActorName
 AlbumData.Photograph.Location
 BowStand.EquipInfo.Content.Name
@@ -50139,6 +50143,8 @@ MasterSwordEventStatus
 StaminaForMasterSwordEvent
 IsForceDisableUseSpecialPower
 CookBuff
+CookBuffLv
+CookBuffTime
 UseScopeStartEvent
 WeaponAttachCount
 FirstSkyIslandEventStatus
