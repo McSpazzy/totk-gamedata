@@ -387,6 +387,7 @@ CarryToShrine01_Crystal_Finish
 CarryToShrine01_Crystal_Start
 CarryToShrine02_Crystal_Finish
 CarryToShrine02_Crystal_Start
+CarryToShrine02_LightOn
 CarryToShrine03_Crystal_Finish
 CarryToShrine03_Crystal_Start
 CarryToShrine04_ClearDark
@@ -20386,11 +20387,13 @@ SkyIsland0003_ArmorGet
 SkyIsland0003_DungeonAppeared
 SkyIsland0003_GolemAtShrine
 SkyIsland0003_LocationAppeared
+SkyIsland0004_Activated
 SkyIsland0004_GroundControlIsActivated
 SkyIsland0005_Activated
 SkyIsland0005_DungeonAppeared
 SkyIsland0005_LocationAppeared
 SkyIsland0009_Activated
+SkyIsland0009_DungeonAppeared
 SkyIsland0009_GroundControlIsActivated
 SkyIsland0009_LocationAppeared
 SkyIsland0009_SpawnMirrors
@@ -22733,6 +22736,7 @@ WhichIsStronger_IsAfter_Step04_Exp
 WhichIsStronger_IsCompleted_Exp
 WorldMgr_IsBeforeFirstInteractToT
 WorldMgr_IsBeforeTitleDemo
+WorldMgr_IsGetDRStone
 Yunbo_AfterSage_MiniChallengeComplete
 Zonau_GeniusWeapon_IsAfter_Ready_Exp
 Zonau_GeniusWeapon_IsCompleted_Exp
@@ -29232,6 +29236,7 @@ FlowerGarden_Forbidden_Count2
 FlowerGarden_Forbidden_Count3
 FlowerGarden_Forbidden_Count4
 FlowerGarden_Forbidden_Pattern
+Footprint.TrackDataIndex
 GiantHorse_KeyCrystal_RetHorseIs
 GolemCombineIcon.Back.SerialNumber
 GolemCombineIcon.LeftHand.SerialNumber
@@ -29447,6 +29452,7 @@ PlayerStatus.ExtraLife
 PlayerStatus.Life
 PlayerStatus.LifeForFirstSkyIslandEvent
 PlayerStatus.LifeForZonauEvent
+PlayerStatus.MasterSwordGetNum
 PlayerStatus.MaxLife
 PlayerStatus.MaxLifeForBeforeVSGanon
 PlayerStatus.TemporaryBreakLife
@@ -30818,6 +30824,11 @@ SimpleIntForMessage2
 SimpleIntForMessage3
 SkyIsland_TmpTargetMilliSecond
 SkyIsland_TmpTargetSecond
+SmallKeyGetNum.Dungeon016
+SmallKeyGetNum.Dungeon019
+SmallKeyGetNum.Dungeon037
+SmallKeyGetNum.Dungeon053
+SmallKeyGetNum.Dungeon062
 StrongestWeapon_TypeLynel
 Uotori_RevivePlan_GetWoodCount
 Uotori_RevivePlan_GetWoodCount_Remained
@@ -34887,6 +34898,7 @@ Header
 FigureInfo
 TrackDataArray
 Footprint.TrackDataArray
+TrackDataIndex
 IsArrayFull
 IsStopLog
 Footprint
@@ -50153,6 +50165,7 @@ CurrentMamo
 MasterSwordEventStatus
 StaminaForMasterSwordEvent
 IsForceDisableUseSpecialPower
+MasterSwordGetNum
 CookBuff
 CookBuffLv
 CookBuffTime
@@ -51225,6 +51238,7 @@ Obj_LinkHouse_O_01
 Obj_LinkHouse_P_01
 Obj_LinkHouse_Q_01
 Obj_LinkHouse_R_01
+SmallKeyGetNum
 Pouch_Weapon
 Pouch_Bow
 Pouch_Shield
