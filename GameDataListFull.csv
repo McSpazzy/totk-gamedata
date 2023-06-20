@@ -17064,7 +17064,7 @@
 017063,C5A06859,3315624025,Bool,MapData.IconData.DeadIcon.IsValid
 017064,27ADF869,0665712745,Bool,MapData.IconData.FrontierPoint.IsSaveLoadTrig
 017065,B72C1F74,3073122164,Bool,MapData.IconData.FrontierPoint.IsValid
-017066,AB639846,2875430982,Bool,Unknown
+017066,AB639846,2875430982,Bool,MapData.IconData.HitIsLocation
 017067,E4C7801E,3838279710,Bool,MapData.IsGerudoIconEnable
 017068,4DF62FB5,1307979701,Bool,MapData.IsMiniMap
 017069,37DE6442,0937321538,Bool,MapData.IsMiniMapEnable
@@ -19464,12 +19464,12 @@
 019463,B0EB4768,2968209256,Bool,PlayerStatus.IsPlayerUltraHandGrabbing
 019464,62C0FA3A,1656814138,Bool,Unknown
 019465,19176D73,0420965747,Bool,PlayerStatus.IsTired
-019466,6F0F3078,1863266424,Bool,Unknown
+019466,6F0F3078,1863266424,Bool,PlayerStatus.IsTrigLifeZero
 019467,604E2B13,1615735571,Bool,PlayerStatus.IsUseAutoBuilder
 019468,798C06C7,2039219911,Bool,PlayerStatus.IsUseCameraPointer
 019469,54C916CE,1422464718,Bool,PlayerStatus.IsUseMaterialThrow
 019470,77DC8FF9,2010943481,Bool,PlayerStatus.IsUseTemporaryLife
-019471,243F0CA3,0608111779,Bool,Unknown
+019471,243F0CA3,0608111779,Bool,PlayerStatus.IsUsingMaterialShortcut
 019472,01F6775F,0032929631,Bool,PlayerStatus.UseScopeStartEvent
 019473,C9B7ED97,3384274327,Bool,PlayerStatus.UseSpeciallyAbyss
 019474,D288B2BC,3532174012,Bool,PlayerStatus.ZonauEventFailureOnce
@@ -25703,7 +25703,7 @@
 025702,02EAA29D,0048931485,Float,PlayerStatus.MasterSwordSleepTimer
 025703,AFD01D68,2949651816,Float,PlayerStatus.MaxEnergy
 025704,F9212C74,4179700852,Float,PlayerStatus.MaxStamina
-025705,40F934C8,1090073800,Float,Unknown
+025705,40F934C8,1090073800,Float,PlayerStatus.ReticleAnimationRate
 025706,1EA93BD8,0514407384,Float,PlayerStatus.SavePosRadY
 025707,6EECEA3A,1861020218,Float,PlayerStatus.Stamina
 025708,3FB67244,1068921412,Float,PlayerStatus.StaminaForMasterSwordEvent
@@ -29897,7 +29897,7 @@
 029896,83A7E5DA,2208818650,Int,PlacementShop_SoldNum.Npc_SouthernVillage005.Armor_011_Upper
 029897,D6866EA1,3599134369,Int,PlacementShop_SoldNum.Npc_SouthernVillage005.Armor_012_Upper
 029898,EB8EFDE4,3952016868,Int,PlacementShop_SoldNum.Npc_SouthernVillage005.Armor_017_Upper
-029899,2EA7FFD1,0782761937,Int,Unknown
+029899,2EA7FFD1,0782761937,Int,PlayerStatus.ArrowAttachCount
 029900,D6C8BCA9,3603479721,Int,PlayerStatus.BreakLife
 029901,716F0587,1903101319,Int,Unknown
 029902,452E9CBD,1160682685,Int,PlayerStatus.Companion.Electric.ForUI.RemainingMinute
@@ -29919,8 +29919,8 @@
 029918,539325F7,1402152439,Int,PlayerStatus.LifeForFirstSkyIslandEvent
 029919,41B8D8B1,1102633137,Int,PlayerStatus.LifeForZonauEvent
 029920,C4B1CBD8,3299986392,Int,PlayerStatus.MasterSwordGetNum
-029921,DABFFD1E,3670015262,Int,Unknown
-029922,8EC28CEB,2395114731,Int,Unknown
+029921,DABFFD1E,3670015262,Int,PlayerStatus.MasterSwordSleepMinute
+029922,8EC28CEB,2395114731,Int,PlayerStatus.MasterSwordSleepSecond
 029923,FBE01DA1,4225768865,Int,PlayerStatus.MaxLife
 029924,B5096765,3037292389,Int,PlayerStatus.MaxLifeForBeforeVSGanon
 029925,E665BB8F,3865426831,Int,Unknown
@@ -31423,9 +31423,9 @@
 031422,7F47145C,2135364700,IntArray,DeadHorseList.Speed
 031423,02319AC5,0036805317,IntArray,DeadHorseList.Toughness
 031424,F3938598,4086531480,IntArray,DongoList.EatNum
-031425,93DD37E1,2480748513,IntArray,Unknown
+031425,93DD37E1,2480748513,IntArray,DongoList.PutItemIDList
 031426,2BFFD44B,0738186315,IntArray,DongoLocatorList.DongoID
-031427,6DFABEB4,1845149364,IntArray,Unknown
+031427,6DFABEB4,1845149364,IntArray,DongoLocatorList.PutItemId
 031428,1138F698,0288945816,IntArray,Unknown
 031429,C6DC3B56,3336321878,IntArray,MapData.IconData.WarpMarkerData.Index
 031430,100E5E81,0269377153,IntArray,OldKorok_ExpandKind
@@ -32015,7 +32015,7 @@
 032014,CCBD929F,3434975903,String64,NpcServeFood.FoodName
 032015,716A7EA5,1902804645,String64,NushiShopRewardName
 032016,42D17B31,1121024817,String64,Unknown
-032017,E901AD78,3909201272,String64,Unknown
+032017,E901AD78,3909201272,String64,RandomPlacedItemCreateActor.LastPickedUpItemName
 032018,4211A77B,1108453243,String64,RandomPlacedItemCreateActor_SouthernVillage004Shop.LastPickedUpItemInfo.ActorName
 032019,14F7E66A,0351790698,String64,RandomPlacedItemCreateActor_SouthernVillageGamblerShopGift.LastPickedUpItemInfo.ActorName
 032020,7342865C,1933739612,String64,RandomPlacedItemCreateActor_SouthernVillageGamblerShopTBox.LastPickedUpItemInfo.ActorName
@@ -35349,7 +35349,7 @@
 035348,4103F319,1090777881,UInt64Array,RandomPlacedItemCreateActor_SouthernVillage004Shop.CreateItemInfo.LocatorActorInstanceId
 035349,E07D4208,3766305288,UInt64Array,RandomPlacedItemCreateActor_SouthernVillageGamblerShopGift.CreateItemInfo.LocatorActorInstanceId
 035350,6FA11157,1872826711,UInt64Array,RandomPlacedItemCreateActor_SouthernVillageGamblerShopTBox.CreateItemInfo.LocatorActorInstanceId
-035351,F584F597,4119131543,UIntArray,Unknown
+035351,F584F597,4119131543,UIntArray,CustomHouse.OwnHouseUnitCount
 035352,AF9F1F49,2946441033,UIntArray,DeadHorseList.Body.NoseColor.Blue
 035353,5F2DFCFA,1596849402,UIntArray,DeadHorseList.Body.NoseColor.Green
 035354,7C9D566D,2090686061,UIntArray,DeadHorseList.Body.NoseColor.Red
@@ -35365,7 +35365,7 @@
 035364,06F4C635,0116704821,UIntArray,DeadHorseList.Hair.SecondaryColor.Blue
 035365,114B097D,0290130301,UIntArray,DeadHorseList.Hair.SecondaryColor.Green
 035366,54115FAD,1410424749,UIntArray,DeadHorseList.Hair.SecondaryColor.Red
-035367,5512F989,1427306889,UIntArray,Unknown
+035367,5512F989,1427306889,UIntArray,DongoList.LastEatTime
 035368,25ECBBFC,0636271612,UIntArray,Footprint.TrackDataArray
 035369,247BD7AF,0612095919,UIntArray,LightBallBud.CreatedTime
 035370,FB96DB13,4220967699,UIntArray,LightBallBud.Nrm
