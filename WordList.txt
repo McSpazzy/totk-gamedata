@@ -12389,6 +12389,7 @@ IsGetAdventureMemory.DmT_ZE_Molduga_PreRender
 IsGetAdventureMemory.DmT_ZE_QueenDead_PreRender
 IsGetAdventureMemory.IsNeedIcon
 IsGetAdventureMemory.IsOpenList
+IsGetAnyRupee
 IsGetAnyway.Animal_Insect_A
 IsGetAnyway.Animal_Insect_AA
 IsGetAnyway.Animal_Insect_AB
@@ -20446,6 +20447,7 @@ SageOfZora_lightPillarVisible
 SageOfZora_LightSpotsOn
 SageOfZora_LowerResolutionMergeTarOnMiddleBoss
 SageOfZora_MidBossTeasureApeear
+SageOfZora_MidBossTeasureWarp
 SageOfZora_MiddleBossAppear
 SageOfZora_MiddleBossDelete
 SageOfZora_ParkYonaDeskAppear
@@ -26571,6 +26573,8 @@ CatchKokko_HorseInnChallenge005
 Challenge_ChainRing_Running
 Circuit_Desert_CheckPointCount
 Circuit_Desert_RewardType
+Circuit_Desert_Time_Limit_Minute
+Circuit_Desert_Time_Limit_Second
 Circuit_Desert_Time_Record_MilliSecond
 Circuit_Desert_Time_Record_Minute
 Circuit_Desert_Time_Record_Second
@@ -29607,6 +29611,8 @@ Goron_MiniGame_01_PassingScore
 Goron_MiniGame_01_PassingScore2
 Goron_MiniGame_02_PassingScore
 Goron_Minigame_02_TimeLimit
+Goron_Minigame_02_TimeLimit_Min
+Goron_Minigame_02_TimeLimit_Sec
 Goron_MiniGame_03_BestScore
 Goron_MiniGame_03_PassingScore
 Goron_MiniGame_03_PassingScore2
@@ -31867,6 +31873,9 @@ Sequence_EventResult
 UIDoCommandArg.MessageLabel
 MapData.IconData.HitLocationName
 SimpleInfo_Bow
+SimpleInfo_DroppedBow
+SimpleInfo_DroppedShield
+SimpleInfo_DroppedWeapon
 SimpleInfo_Shield
 SimpleInfo_Weapon
 UI_GameOverPressButton
