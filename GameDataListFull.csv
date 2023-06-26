@@ -29935,13 +29935,13 @@
 029934,11DD97F4,0299735028,Int,RandomPlacedItemCreateActor_SouthernVillageGamblerShopGift.LastPickedUpItemInfo.Price
 029935,2504B340,0621065024,Int,RandomPlacedItemCreateActor_SouthernVillageGamblerShopTBox.LastPickedUpItemInfo.Price
 029936,9BCE26CF,2613978831,Int,RaumiGolemAttachment.SubTool.Life
-029937,897C472B,2306623275,Int,Unknown
+029937,897C472B,2306623275,Int,RaumiGolemAttachment.SubTool.RaumiControlLife
 029938,612B8E1A,1630244378,Int,RaumiGolemAttachment.SubWeapon.Life
-029939,8F89BA4E,2408168014,Int,Unknown
+029939,8F89BA4E,2408168014,Int,RaumiGolemAttachment.SubWeapon.RaumiControlLife
 029940,0AC18813,0180455443,Int,RaumiGolemAttachment.Tool.Life
-029941,BCA3DE42,3164855874,Int,Unknown
+029941,BCA3DE42,3164855874,Int,RaumiGolemAttachment.Tool.RaumiControlLife
 029942,1FE9B44E,0535409742,Int,RaumiGolemAttachment.Weapon.Life
-029943,9BA976F7,2611574519,Int,Unknown
+029943,9BA976F7,2611574519,Int,RaumiGolemAttachment.Weapon.RaumiControlLife
 029944,63F1BAC7,1676786375,Int,RealEnemyTreantAppleCount.10085282173423316192|Enemy_Treant_D_Dummy
 029945,D6E8CC2E,3605580846,Int,RealEnemyTreantAppleCount.10107848439881717924|Enemy_Treant_Bee_Dummy
 029946,1C978DF4,0479694324,Int,RealEnemyTreantAppleCount.10113492422621109671|Enemy_Treant_D_Dummy
