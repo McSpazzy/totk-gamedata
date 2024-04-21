@@ -32023,7 +32023,7 @@
 032022,1F8E3ED5,0529415893,String64,RaumiGolemAttachment.SubWeapon.Name
 032023,8D1F1CF7,2367626487,String64,RaumiGolemAttachment.Tool.Name
 032024,7B2B5333,2066436915,String64,RaumiGolemAttachment.Weapon.Name
-032025,C10AF0D8,3238719704,String64,Unknown
+032025,C10AF0D8,3238719704,String64,RecipeCard.LatestDisplayFood
 032026,ECDEF5F9,3974034937,String64,RecipeCard.LatestMakeFood
 032027,26A351CD,0648237517,String64,ReplaceblePicture_ReplaceKey
 032028,1B39E32F,0456778543,String64,Unknown
@@ -32315,7 +32315,7 @@
 032314,824564C2,2185585858,String64Array,RecipeCard.Content.Item_RoastFish_15_O.RecipeLog.Materials
 032315,634C78CF,1665956047,String64Array,RecipeCard.Content.Item_RoastFish_16.RecipeLog.Materials
 032316,A1C6EEC9,2714169033,String64Array,RecipeCard.Content.Item_RoastFish_18.RecipeLog.Materials
-032317,DF0798C3,3741817027,String64Array,Unknown
+032317,DF0798C3,3741817027,String64Array,RecipeCard.LatestDisplayFoodMaterials
 032318,4E742CF4,1316236532,String64Array,RecipeCard.LatestMakeFoodMaterials
 032319,53CBF91A,1405876506,String64Array,ShieldStand.EquipInfo.Content.Combined.Name
 032320,D26F0A3D,3530492477,String64Array,ShieldStand.EquipInfo.Content.Name
