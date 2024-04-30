@@ -35332,7 +35332,7 @@
 035331,7F4E2E3E,2135830078,UInt,RandomPlacedItemCreateActor_SouthernVillageGamblerShopGift.ElapsedTime
 035332,F78A5054,4153036884,UInt,RandomPlacedItemCreateActor_SouthernVillageGamblerShopTBox.ElapsedTime
 035333,07A98AF6,0128551670,UInt,RandomPlacedItemCreateActor_SouthernVillageGamblerShopTBox.OpenElapsedTime
-035334,2029D3D8,0539612120,UInt,Unknown
+035334,2029D3D8,0539612120,UInt,SelectChallengeHash
 035335,B8EF33E4,3102684132,UInt,Unknown
 035336,3F8D9D86,1066245510,UInt,TimeDayLookWorld
 035337,5CE8221A,1558716954,UInt64,LastWildHorse.UidHash
